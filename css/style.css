@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Bentham);
+
+/* base */
+
+body {
+	font-family: 'Bentham';
+	font-size: 24px;
+	color: #0d0d0d;
+  line-height: 1.5;
+
+	text-align: center;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+  text-align: center;
+}
+
+.container--contact {
+	width: 550px;
+	margin: 0 auto;
+}
+
+/* header */
+
+header {
+	width: 100%;
+	top: 0;
+	z-index: 20;
+}
+
+header a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+h1 {
+  width: 200px;
+  margin: 30px auto;
+  font-size: 40px;
+  border-top: 1px solid #0d0d0d;
+  border-bottom: 1px solid #0d0d0d;
+}
+
+
+/* hero */
+
+.hero-text {
+	font-size: 32px;
+	padding: 200px 0;
+}
+
+/* contact */
+
+.contact{
+	padding: 0 0 100px 0;
+}
+
+.contact__email, .contact__number {
+  text-decoration: none;
+  color: #0d0d0d;
+
+  display: inline-block;
+  margin: 0 30px;
+  border-bottom: 1px solid #0d0d0d;
+}
+
+.contact__email:hover, .contact__number:hover {
+  color: #868686;
+  border-bottom: 1px solid #868686;
+}
+
+/* responsive */
+
+@media (max-width: 700px) {
+	.container {
+    width: 100%;
+		padding: 0 40px;
+	}
+
+  .container--contact {
+    width: 300px;
+  }
+
+  .contact__email, .contact__number {
+    display: inline-block;
+    margin: 20px 0;
+  }
+}
+
+
+@media (max-width: 500px) {
+	.hero-text {
+		font-size: 26px;
+	}
+
+	.contact__number, .contact__email {
+		font-size: 20px;
+	}
+}
