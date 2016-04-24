@@ -1,9 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Bentham);
 
 /* base */
-html, body {
-  height: 100vh;
-}
 
 body {
 	font-family: 'Bentham';
@@ -103,7 +100,6 @@ h1 {
     margin: 20px 0;
   }
 }
-
 
 @media (max-width: 500px) {
 	.hero-text {
